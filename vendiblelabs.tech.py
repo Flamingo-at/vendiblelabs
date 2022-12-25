@@ -96,13 +96,13 @@ async def worker():
                 code = await get_code(client, email.split('@')[0], email.split('@')[1], email_id)
 
                 logger.info('Registration')
-                coupon_code = await register(client, email, address.lower(), code)
+                unique_code = await register(client, email, address.lower(), code)
 
         except Exception:
             logger.error("Error\n")
         else:
             with open('registered.txt', 'a', encoding='utf-8') as file:
-                file.write(f'{email}:{coupon_code}:{address}:{private_key}\n')
+                file.write(f'{email}:{unique_code}:{address}:{private_key}\n')
             logger.success('Successfully\n')
 
         await asyncio.sleep(delay)
