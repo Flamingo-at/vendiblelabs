@@ -1,6 +1,6 @@
 <h1 align="center">Vendiblelabs</h1>
 
-<p align="center">Registration of referrals on the whitelist on the <a href="https://registration.vendiblelabs.tech/">Vendiblelabs</a></p>
+<p align="center">Registration of referrals on the whitelist on the <a href="https://registration.vendiblelabs.tech/">Vendiblelabs.tech</a></p>
 <p align="center">
 <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
 </p>
